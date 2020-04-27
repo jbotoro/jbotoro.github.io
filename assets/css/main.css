@@ -75,6 +75,23 @@ input, select, textarea {
 .skills {
 	font-weight: 100;
 	font-size: 18px;
+	display: flex;
+	justify-content: center;
+
+}
+.skillsList {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	/* width: 80% */
+}
+
+.skillsIcon {
+	height: 86px;
+	width: 86px;
+	list-style: none;
+	margin: 25px 25px 25px 25px;
 }
 
 .projects{
@@ -2839,7 +2856,7 @@ input, select, textarea {
 	ul.icons {
 		cursor: default;
 		list-style: none;
-		padding-left: 0;
+		padding-left: 15px;
 	}
 
 		ul.icons li {
@@ -3858,6 +3875,7 @@ input, select, textarea {
 					}
 
 			}
+			
 
 		#main > .posts {
 			display: -moz-flex;
@@ -4722,4 +4740,15 @@ input, select, textarea {
 			visibility: visible;
 		}
 
+	}
+
+	.labelHeader {
+		border-bottom: none;
+	}
+
+	#projectLink {
+		height: 0px;
+		width: 0px;
+		padding: 0;
+		border-top: none;
 	}
